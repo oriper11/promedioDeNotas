@@ -6,8 +6,8 @@ if (nombre == ""){
   alert ("No se puede completar este campo con números")
 }
 let dni = parseInt(prompt("Ingrese DNI del alumno"))
-if (dni == ""){
-  alert ("Es obligatorio completar este campo")
+ if (dni != 9){
+  alert ("El DNI debe tener exactamente 9 carácteres.")
 }
 let materia = prompt("Ingrese asignatura correspondiente")
 if (materia == ""){
